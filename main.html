@@ -1,16 +1,40 @@
 <!DOCTYPE html>
-
-<html>
-
+<html lang="en">
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Accessible Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+
+    <header>
+        <h1 role="heading">Welcome to My Accessible Portfolio</h1>
+    </header>
+
+    <nav role="navigation">
+        <ul role="list">
+            <li role="listitem"><a href="#about">About Me</a></li>
+            <li role="listitem"><a href="#projects">Projects</a></li>
+            <li role="listitem"><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section>
+            <img src="C:\Users\Lenovo\Desktop\Nikhil\nikhil rao.JPG" alt="Profile picture of [Nikhil Rao]" role="img">
+            <p>Hi! I'm [Nikhil Rao], a passionate web developer dedicated to creating accessible and user-friendly websites.</p>
+        </section>
+
+        <section>
+            <h2>Highlights</h2>
+            <ul role="list">
+                <li role="listitem">Experienced in HTML, CSS, and JavaScript</li>
+                <li role="listitem">Advocate for web accessibility</li>
+                <li role="listitem">Lifelong learner committed to improving my skills</li>
+            </ul>
+        </section>
+    </main>
 
 </body>
-
 </html>
